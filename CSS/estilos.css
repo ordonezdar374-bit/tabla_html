@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 239, 242);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: rgb(193, 152, 242);
+    padding: 20px;
+    text-align: center;
+}
+
+a{
+    color: rgb(24, 3, 59);
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecera-principal{
+    background-color: rgb(46, 7, 85);
+    color: azure;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 1.5rem;
+}
+
+.contenido{
+    margin: 50px auto;
+    max-width: 700px;
+    padding: 30px;
+    background-color: #f4eded;
+    border-radius: 6px;
+}
+
+.contenido h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 1.9rem;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#222;
+}
+main{
+    margin: 50px auto;
+    max-width: 750px;
+    padding: 20px;
+    border-radius: 6px;
+}
+section{
+    color: #180789;
+    padding: 10px;
+    background-color: #e8e6e6;
+    margin-top: 20px;
+    
+}
+
+header h1{
+    margin: 0;
+    padding: 0;
+}
+
+
+fieldset{
+    padding: 15px;
+    max-width: 700px;
+}
+ 
+label{
+    display: inline-block;
+    font-weight: 300px;
+}
+
+form label{
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    max-width: 700px;
+}
+
+input[type="text"],
+input[type="email"]{
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid rgb(39, 39, 126);
+    border-radius: 6px;
+}
+input,
+select{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 1px;
+    font-size: 1rem;
+}
+
+input[type="submit"],
+input[type="reset"]{
+    width: auto;
+    cursor: pointer;
+    border: none;
+    color: #f0ebeb;
+    padding: 8px 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    background-color: #271984;
+}
+input[type="submit"]:hover{
+    background-color: #473f7a;
+}
+
+input[type="reset"]{
+    background-color: #464646;
+}
+
+input[type="reset"]:hover{
+    background-color: #747476;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #8b83bf;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px black;
+}
+td{
+    padding: 16px;
+    border-bottom: 1px solid #91add1;
+}
+
+td:hover{
+    background-color: #544e7c;
+    color: #f4f7fb;
+    text-align: center;
+    padding: 20px;
+}
+.pie{
+    width: 100%;
+    background-color: rgb(65, 63, 63);
+    color: #ffffff;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40
+}
+
+
+
+
+
+
+
+
